@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: hwb(6deg 99% 0% / 96%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.brand{
+  /* background-color: white; */
+  padding:3px 5px;
+  
+}
+.brand1{
+  font-size: 25px;
+  font-weight: 800;
+  color: deeppink;
+  background-color: rgb(254, 251, 253);
+  padding:3px 5px;
+  border-radius: 15px 0px 0px 0px;
+}
+.brand2{
+  font-size: 25px;
+ background-color: deeppink;
+  color:white;
+  padding:3px 5px;
+  font-weight: 800;
+  border-radius: 0px 0px 15px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.bi-bag-fill{
+  font-size: 30px;
+  margin-right: 40px;
+  color: white;
+  cursor: pointer;
+}
+.cart_count{
+    position: absolute;
+    right: 63px;
+    top: 23px;
+    color: #f90527;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.card-img, .card-img-bottom, .card-img-top {
+  width: 286px; 
+  height: 250px;
+} 
+
+.book_container{
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.search{
+    margin: 10px;
+    background-color: #f7f5f5;
+    width: 100%;
+}
+.searchbox{
+    width: 80%;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid deeppink;
+    outline: none;
+    padding: 11px;
+}
+.searchbox:focus{
+  box-shadow: 1px 1px 7px 1px #ff149394;
+}
+.btn{
+  width: 255px;
+  background-image: linear-gradient(98deg,  blue,cyan);
+}
+#table {
+  border: 1px solid deeppink;
+  background-color: #fdfbfc;
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  right: 50px;
+  width: 40%;
+}
+#table td{
+  border: 1px solid deeppink;
+}
+#table th{
+  background-color: deeppink;
+  color: white;
+}
+#dropdown-toggle {
+  display: inline-block;
+  /* margin-left: 0.255em;
+  vertical-align: 0.255em;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent; */
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 60%;
+  margin-top: 0.125rem;
+ width: 40%;
+ padding: 10px;
+ 
+}
+.cartimg{
+  width:150px;
+  height: 150px;
+}
+
+/* increment/decrement */
+
+.decr, .incr{
+  padding: 10px 20px;
+  background-color: gainsboro;
+  font-size: 20px;
+  font-weight: 600;
+ cursor: pointer;
+ 
+}
+.tvalue{
+  background-color:rgb(235, 233, 233);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+/* login form */
+
+#loginform{
+  width: 400px;
+  background-image: linear-gradient(50deg, pink, rgb(205, 252, 251));
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px 1px rgb(154, 153, 153);
+}
+
+
+.loginform_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.loginbtn{
+  width: 350px;
+  height: 35px;
+ border: none;
+ border-radius: 7px;
+ background-color: deeppink;
+ color: white;
+ font-weight: 600;
+ cursor: pointer;
+ margin-top: 20px;
+ box-shadow: 1px 1px 5px 0px gray;
+}
+hr{
+  border: 1px solid deeppink;
+}
+
+.search-menu{
+  display: flex;
+  
+}
